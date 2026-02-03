@@ -1,8 +1,20 @@
 # ProjectZ-TEST
 
-This repository is a starting point for **ProjectZ-TEST**.
+A minimal starter for a **vanilla HTML/CSS/JavaScript** project.
 
-## Getting started
+Note: some branches may only contain this README while the initial scaffold is still being developed.
+
+## Prerequisites
+
+You can run this project with **any local static file server**.
+
+Pick one:
+
+- Python 3 (recommended)
+- Node.js (optional)
+- VS Code + "Live Server" extension (optional)
+
+## Quickstart
 
 ```bash
 # clone
@@ -10,9 +22,41 @@ git clone https://github.com/dennisivy/ProjectZ-TEST.git
 cd ProjectZ-TEST
 ```
 
-## Development
+### Run locally (recommended)
 
-Add your build/run instructions here (e.g. `npm install && npm test`, `python -m venv .venv`, etc.).
+#### Option A: Python (no dependencies)
+
+```bash
+python3 -m http.server 8000
+```
+
+Then open:
+
+- http://localhost:8000
+
+#### Option B: Node.js
+
+```bash
+npx http-server -p 8000
+```
+
+Then open:
+
+- http://localhost:8000
+
+## Project structure
+
+When the scaffold is present, the project typically contains:
+
+- `index.html` — main page
+- `styles.css` — styles
+- `app.js` — JavaScript entry
+
+## Development workflow
+
+1. Start a local server (see above).
+2. Edit `index.html`, `styles.css`, or `app.js`.
+3. Refresh the browser.
 
 ## Contributing
 
@@ -22,4 +66,4 @@ Add your build/run instructions here (e.g. `npm install && npm test`, `python -m
 
 ## License
 
-Add a license (e.g. MIT) and update this section accordingly.
+No license has been added yet.
